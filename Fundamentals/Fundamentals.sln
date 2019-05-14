@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.SimpleAsyncUsage", "1.Sim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnblockingTheUI", "UnblockingTheUI\UnblockingTheUI.csproj", "{DEDA2E84-6194-44C6-833E-F275A98A4785}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.ExceptionHandling", "2.ExceptionHandling", "{1EF8C361-6616-4095-83AE-40EB257EF7B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetweenAsynMethodAndAsyncOperation", "BetweenAsynMethodAndAsyncOperation\BetweenAsynMethodAndAsyncOperation.csproj", "{4571D1A7-6653-464C-9FA6-3313A2E1A097}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{DEDA2E84-6194-44C6-833E-F275A98A4785}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEDA2E84-6194-44C6-833E-F275A98A4785}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEDA2E84-6194-44C6-833E-F275A98A4785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4571D1A7-6653-464C-9FA6-3313A2E1A097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4571D1A7-6653-464C-9FA6-3313A2E1A097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4571D1A7-6653-464C-9FA6-3313A2E1A097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4571D1A7-6653-464C-9FA6-3313A2E1A097}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DEDA2E84-6194-44C6-833E-F275A98A4785} = {A2326B8D-6B38-427C-BA93-3462FEBBDBA6}
+		{4571D1A7-6653-464C-9FA6-3313A2E1A097} = {1EF8C361-6616-4095-83AE-40EB257EF7B1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {50C2A15A-42ED-4247-A834-421240134595}
